@@ -12,7 +12,6 @@ import matplotlib.pyplot as plt
 from astropy.coordinates import SkyCoord, Distance, match_coordinates_sky
 from astropy import units as u
 
-
 #%% read in data
 
 t_she = Table.read('data/she2017.fits')
